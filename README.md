@@ -13,6 +13,8 @@ Traditional chatbots often rely solely on pre-trained models, which may generate
 
 ### 1. PDF Data Processing
 - **Dataset Used:** `DSUnit1.pdf` (contains structured text used for Q&A).
+- **NOTE: You have to upload your PDF**
+- 
 - **Processing Steps:**
   - Extracted text from the PDF using `PyMuPDF` (`fitz`).
   - Indexed text chunks into **FAISS** for efficient retrieval.
